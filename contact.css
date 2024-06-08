@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-   
+   min-height: 100vh;
     line-height: 1.6;
     background-color: white;
 }
@@ -41,4 +41,11 @@ header h1 {
 .contact-info-section p {
     font-size: 1.2em;
     margin: 10px 0;
+}
+
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
