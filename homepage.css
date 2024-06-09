@@ -10,6 +10,7 @@ body {
     background-image: url("img/gymbcg.png");
     background-size: cover;
     background-repeat: no-repeat;
+    line-height: normal;
 }
 
 .logo {
@@ -24,6 +25,19 @@ header {
     align-items: center;
     display: flex;
 }
+
+.texts a {
+    color: #221f1f;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .3s;
+}
+
+.texts a:hover {
+    color: #ffffff;
+}
+
 header h1 {
     margin: 0;
     color: rgb(49, 44, 44);
@@ -39,6 +53,12 @@ header li {
     text-decoration: none;
 }
 
+
+.container a:hover{
+    color: #fff;
+}
+
 h2 {
     color: #fff;
 }
+
