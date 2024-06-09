@@ -6,14 +6,24 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-html {
-height: 100vh;
-}
 body {
-   min-height: 100%;
+   
     line-height: 1.6;
     background-color: white;
 }
+
+.contacttexts a {
+    color: #221f1f;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .3s;
+}
+
+.contacttexts a:hover {
+    color: #ffffff;
+}
+
 .contactcontainer {
     width: 80%;
     margin: 0 auto;
@@ -44,11 +54,4 @@ header h1 {
 .contact-info-section p {
     font-size: 1.2em;
     margin: 10px 0;
-}
-
-main {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
 }
