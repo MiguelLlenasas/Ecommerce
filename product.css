@@ -12,6 +12,18 @@ body {
     background-color: #f4f4f4;
 }
 
+.producttexts a {
+    color: #221f1f;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .3s;
+}
+
+.producttexts a:hover {
+    color: #ffffff;
+}
+
 .productcontainer {
     width: 80%;
     margin: 0 auto;
